@@ -59,7 +59,7 @@ outcome_label =['pass','defer','fail']
 
 # Main Program
 while start:
-    '''This loop will run until the user enters a valid input'''
+    '''This loop will run until the user quits the program'''
     try:
         if position >= 0 and position < len(outcome_label): # check if the position is within the range of the list
             credit = int(input(f'Please enter your credits at {outcome_label[position]}: '))
