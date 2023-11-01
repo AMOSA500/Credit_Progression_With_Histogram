@@ -4,13 +4,20 @@ from art import logo
 
 print(logo)
 
-
 # Data Table for the program
+#  Variable declaration
+start = True
+position = 0
+pass_data = []
+fail_data = []
+defer_data = []
+student_record = []
+outcome_label =['pass','defer','fail']
 hightest_credit = 120
 progression_dataset = [] # dictionary to store the progression outcome
 
 
-# # Credit Score Validation Function
+# Credit Score Validation Function
 def credit_validation(credit):
     if credit >= 0 and credit <= hightest_credit and credit % 20 == 0:
         return True
@@ -47,14 +54,14 @@ def progression_outcome(credit_list):
         progression_dataset.append(outcome_dict)
     
 
-#  Variable declaration
-start = True
-position = 0
-pass_data = []
-fail_data = []
-defer_data = []
-student_record = []
-outcome_label =['pass','defer','fail']
+# Histogram Function
+def create_histogram(pass_data, defer_data, fail_data):
+    # Graphical User Interface
+    win = GraphWin('Histogram', 400, 400)
+    win.setCoords(0, 0, 400, 400)
+    win.setBackground('#dff9fb')
+    win.close()
+
 
 
 # Main Program
@@ -99,6 +106,7 @@ while start:
                     position = 0
                     continue 
                 else:
+                    create_histogram(pass_data, defer_data, fail_data)
                     # print the progression outcome after the user quits
                     for item in progression_dataset: # print the progression outcome
                         for key, value in item.items(): # unpack the dictionary
