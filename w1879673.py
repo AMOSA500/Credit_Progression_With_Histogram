@@ -55,11 +55,34 @@ def progression_outcome(credit_list):
     
 
 # Histogram Function
-def create_histogram(pass_data, defer_data, fail_data):
+def create_histogram(progression_dataset):
+    number_of_progress = 0
+    number_of_trailer = 0
+    number_of_retriever = 0
+    number_of_exclude = 0
+    
+    for item in progression_dataset:
+        for key, value in item.items():
+            if key == 'Progress':
+                number_of_progress += 1
+            elif key == 'Module Trailer':
+                number_of_trailer += 1
+            elif key == 'Module Retriever':
+                number_of_retriever += 1
+            else:  
+                number_of_exclude += 1
+        
+        
+    # Create a window
     # Graphical User Interface
     win = GraphWin('Histogram', 400, 400)
     win.setCoords(0, 0, 400, 400)
     win.setBackground('#dff9fb')
+    
+    text_center = Text(Point(200, 380), 'Histogram Results')
+    text_center.draw(win)
+    
+    win.getMouse()
     win.close()
 
 
@@ -106,7 +129,7 @@ while start:
                     position = 0
                     continue 
                 else:
-                    create_histogram(pass_data, defer_data, fail_data)
+                    create_histogram(progression_dataset)
                     # print the progression outcome after the user quits
                     for item in progression_dataset: # print the progression outcome
                         for key, value in item.items(): # unpack the dictionary
