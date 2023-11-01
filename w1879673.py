@@ -100,8 +100,8 @@ while start:
                     continue 
                 else:
                     # print the progression outcome after the user quits
-                    for i in progression_dataset: # print the progression outcome
-                        for key, value in i.items(): # unpack the dictionary
+                    for item in progression_dataset: # print the progression outcome
+                        for key, value in item.items(): # unpack the dictionary
                             print(f'{key} - {value}') # print the outcome
                    
                     start = False
