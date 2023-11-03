@@ -82,7 +82,7 @@ def create_histogram(progression_dataset):
     text_center = Text(Point(200, 380), 'Histogram Results')
     text_center.draw(win)
     
-    win.getMouse()
+    win.mainloop()
     win.close()
 
 
@@ -129,13 +129,18 @@ while start:
                     position = 0
                     continue 
                 else:
-                    create_histogram(progression_dataset)
+                    
                     # print the progression outcome after the user quits
                     for item in progression_dataset: # print the progression outcome
                         for key, value in item.items(): # unpack the dictionary
                             print(f'{key} - {value}') # print the outcome
-                   
-                    start = False
+                    
+                    # call the histogram function
+                    create_histogram(progression_dataset)
+                    # clear the list
+                    student_record.clear()
+                    # stop the loop
+                    start = False 
                 
     except ValueError: # check if the input is an integer
         position = position
