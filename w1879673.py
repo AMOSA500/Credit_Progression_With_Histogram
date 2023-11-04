@@ -10,7 +10,7 @@ start = True # boolean value to start the program
 position = 0 # position to keep track of the list index
 student_record = [] 
 input_label =['pass','defer','fail'] # list to store the outcome label
-outcome_label = [] # list to store the outcome label
+outcome_label = {} # dictionary to store the outcome label and total number of each outcome
 hightest_credit = 120 # highest credit
 progression_dataset = [] # dictionary to store the progression outcome
 
@@ -43,46 +43,38 @@ def progression_outcome(credit_list):
     defer_credit = credit_list[1]
     fail_credit = credit_list[2]
     outcome_dict = {} # dictionary to store the progression outcome
-    number_of_outcome = {} # dictionary to store the number of each progression outcome
+    
     
     # check the progression outcome
     display_value = f'{credit_list[0]},{credit_list[1]},{credit_list[2]}'
     
     if (pass_credit <= 40) and fail_credit >= 80:
         print('Exclude')
-        outcome_dict['Exclude'] = display_value
-        progression_dataset.append(outcome_dict)
-        for item in outcome_label:
-            for key, value in item.items():
-                if 'Exclude' == key:
-                    number_of_outcome[key] = value + 1
-                    
-                else:
-                    number_of_outcome[key] = 1
+        outcome_dict['Exclude'] = display_value # Create a dictionary
+        if 'Exclude' in outcome_label: # check if the key is in the dictionary
+            outcome_label['Exclude'] += 1 # increment the value 
+        else:
+            outcome_label['Exclude'] = 1
+        
             
     elif pass_credit <= 80 and fail_credit <= 60:
         print('Module Retriever')
         outcome_dict['Module Retriever'] = display_value
-        progression_dataset.append(outcome_dict)
-        if 'Module Retriever' not in outcome_label:
-            outcome_label.append('Module Retriever')
         
     elif (pass_credit == 100) and (defer_credit >= 0 or fail_credit >= 0):
         print('Module Trailer')
         outcome_dict['Module Trailer'] = display_value
-        progression_dataset.append(outcome_dict)
-        if 'Module Trailer' not in outcome_label:
-            outcome_label.append('Module Trailer')
+    
     else:
         print('Progress')
         outcome_dict['Progress'] = display_value
-        progression_dataset.append(outcome_dict)
-        if 'Progress' not in outcome_label:
-            outcome_label.append('Progress')
+        
+    
+    # append the dictionary to the list        
+    progression_dataset.append(outcome_dict) # append all outcome_dict dictionary to the list
 
 
-# Store file in a text
-
+# Store file in a text file
 def store_file(data):
     '''
     This function will store the progression outcome in a text file
@@ -90,12 +82,12 @@ def store_file(data):
     The function will unpack the list and write the outcome to the file
     Reference: https://www.w3schools.com/python/python_file_write.asp
     '''
-    s_no = 0 # serial number
-    with open('progression.txt','w') as file: # open the file
-        for item in data: # unpack the list
-            for key, value in item.items(): # unpack the dictionary
-                s_no += 1 # increment the serial number
-                file.write(f'{s_no}. {key} - {value}\n') # write to the file
+    # s_no = 0 # serial number
+    # with open('progression.txt','w') as file: # open the file
+    #     for item in data: # unpack the list
+    #         for key, value in item.items(): # unpack the dictionary
+    #             s_no += 1 # increment the serial number
+    #             file.write(f'{s_no}. {key} - {value}\n') # write to the file
   
 
 def format_data(data):
@@ -167,7 +159,9 @@ def create_histogram(progression_dataset):
     
     # Create a bar for Progress
     colour_list = ['#f9ca24', '#f0932b', '#eb4d4b', '#6ab04c']
-    for i in len(progression_dataset):
+    len_dataset = len(outcome_label)
+    for i in range(len_dataset):
+        
         progress_bar = Rectangle(Point(100, 300), Point(50, 50))
         progress_bar.setFill(colour_list[i])
         progress_bar.draw(win)
@@ -234,7 +228,11 @@ while start:
                 else:
                     # print the progression outcome after the user quits
                     # Ex: {'Progress': '120,0,0'}
-                    format_data(progression_dataset)
+                    formatted_data =  format_data(progression_dataset)
+                    print(formatted_data)
+                    
+                    # print the number of each progression outcome
+                    print(outcome_label)
                     
                     # call the histogram function
                     create_histogram(progression_dataset)
