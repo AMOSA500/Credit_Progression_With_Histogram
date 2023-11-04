@@ -4,65 +4,136 @@ from art import logo
 
 print(logo)
 
-# Data Table for the program
+
 #  Variable declaration
-start = True
-position = 0
-pass_data = []
-fail_data = []
-defer_data = []
-student_record = []
-outcome_label =['pass','defer','fail']
-hightest_credit = 120
+start = True # boolean value to start the program
+position = 0 # position to keep track of the list index
+student_record = [] 
+input_label =['pass','defer','fail'] # list to store the outcome label
+outcome_label = [] # list to store the outcome label
+hightest_credit = 120 # highest credit
 progression_dataset = [] # dictionary to store the progression outcome
 
 
 # Credit Score Validation Function
 def credit_validation(credit):
-    if credit >= 0 and credit <= hightest_credit and credit % 20 == 0:
-        return True
-    else:
-        return False    
-
+    '''
+    This function will check if the credit is within the range
+    The function will take an integer as an argument
+    The function will return a boolean value
+    '''
+    return credit >= 0 and credit <= hightest_credit and credit % 20 == 0
+     
 
 # Progression Outcome Function     
 def progression_outcome(credit_list):
+    '''
+    This function will check the progression outcome
+    The function will take a list as an argument
+    The function will append a dictionary of outcome_dict into the progression_dataset list
+    The function will unpack the list and check the progression outcome
+    The function will append the dictionary to the list
+    The function will append the outcome label to the list
+    Reference: https://www.w3schools.com/python/python_dictionaries.asp
+    
+    Ex: {'Progress': '120,0,0'}
+    '''
     # unpack the list
     pass_credit = credit_list[0] 
     defer_credit = credit_list[1]
     fail_credit = credit_list[2]
-    outcome_dict = {}
+    outcome_dict = {} # dictionary to store the progression outcome
+    number_of_outcome = {} # dictionary to store the number of each progression outcome
     
     # check the progression outcome
+    display_value = f'{credit_list[0]},{credit_list[1]},{credit_list[2]}'
+    
     if (pass_credit <= 40) and fail_credit >= 80:
         print('Exclude')
-        outcome_dict['Exclude'] = f'{credit_list[0]},{credit_list[1]},{credit_list[2]}'
+        outcome_dict['Exclude'] = display_value
         progression_dataset.append(outcome_dict)
-        
+        for item in outcome_label:
+            for key, value in item.items():
+                if 'Exclude' == key:
+                    number_of_outcome[key] = value + 1
+                    
+                else:
+                    number_of_outcome[key] = 1
+            
     elif pass_credit <= 80 and fail_credit <= 60:
         print('Module Retriever')
-        outcome_dict['Module Retriever'] = f'{credit_list[0]},{credit_list[1]},{credit_list[2]}'
+        outcome_dict['Module Retriever'] = display_value
         progression_dataset.append(outcome_dict)
+        if 'Module Retriever' not in outcome_label:
+            outcome_label.append('Module Retriever')
         
     elif (pass_credit == 100) and (defer_credit >= 0 or fail_credit >= 0):
         print('Module Trailer')
-        outcome_dict['Module Trailer'] = f'{credit_list[0]},{credit_list[1]},{credit_list[2]}'
+        outcome_dict['Module Trailer'] = display_value
         progression_dataset.append(outcome_dict)
+        if 'Module Trailer' not in outcome_label:
+            outcome_label.append('Module Trailer')
     else:
         print('Progress')
-        outcome_dict['Progress'] = f'{credit_list[0]},{credit_list[1]},{credit_list[2]}'
+        outcome_dict['Progress'] = display_value
         progression_dataset.append(outcome_dict)
-    
+        if 'Progress' not in outcome_label:
+            outcome_label.append('Progress')
 
-# Histogram Function
-def create_histogram(progression_dataset):
-    number_of_progress = 0
-    number_of_trailer = 0
-    number_of_retriever = 0
-    number_of_exclude = 0
+
+# Store file in a text
+
+def store_file(data):
+    '''
+    This function will store the progression outcome in a text file
+    The function will take a list as an argument
+    The function will unpack the list and write the outcome to the file
+    Reference: https://www.w3schools.com/python/python_file_write.asp
+    '''
+    s_no = 0 # serial number
+    with open('progression.txt','w') as file: # open the file
+        for item in data: # unpack the list
+            for key, value in item.items(): # unpack the dictionary
+                s_no += 1 # increment the serial number
+                file.write(f'{s_no}. {key} - {value}\n') # write to the file
+  
+
+def format_data(data):
+    '''
+    This function will format the data
+    The function will take a list as an argument
+    The function will unpack the list and format the data
+    The function will return a list
+    '''
+    formatted_data = ''
+    for item in data: # unpack the list
+        for key, value in item.items(): # unpack the dictionary
+            formatted_data += f'{key} - {value}\n' # format the data
+    return formatted_data # return the formatted data
+
+
+
+
+# variables to store the number of each progression outcome
+number_of_progress = number_of_trailer = number_of_retriever = number_of_exclude = 0 
+
+# Calculate progress outcome
+def calculate_progress_outcome(data): 
+    '''
+    This function will calculate the amount of progression outcome
+    The function will take a list as an argument
+    The function will unpack the list and calculate each progression outcome
+    The function will set the value to a variable
+    The function will return the variable
+    The function has a global variable to store the number of each progression outcome
+    Reference: https://www.w3schools.com/python/python_dictionaries_loop.asp
+    '''
+    global number_of_progress, number_of_trailer, number_of_retriever, number_of_exclude
     
     for item in progression_dataset:
-        for key, value in item.items():
+        # unpack the dictionary
+        # _ is used to ignore the value
+        for key, _ in item.items(): 
             if key == 'Progress':
                 number_of_progress += 1
             elif key == 'Module Trailer':
@@ -71,6 +142,18 @@ def create_histogram(progression_dataset):
                 number_of_retriever += 1
             else:  
                 number_of_exclude += 1
+    
+
+# Histogram Function
+def create_histogram(progression_dataset):
+    '''
+    This function will create a histogram
+    The function will take a list as an argument
+    The function will unpack the list and count the number of each progression outcome
+    The function will create a window and draw a histogram
+    Reference: https://www.geeksforgeeks.org/python-pil-imagedraw-draw-rectangle/
+    '''
+    calculate_progress_outcome(progression_dataset)
         
         
     # Create a window
@@ -82,27 +165,47 @@ def create_histogram(progression_dataset):
     text_center = Text(Point(200, 380), 'Histogram Results')
     text_center.draw(win)
     
-    win.mainloop()
-    win.close()
+    # Create a bar for Progress
+    colour_list = ['#f9ca24', '#f0932b', '#eb4d4b', '#6ab04c']
+    for i in len(progression_dataset):
+        progress_bar = Rectangle(Point(100, 300), Point(50, 50))
+        progress_bar.setFill(colour_list[i])
+        progress_bar.draw(win)
+    
+    top_text = Text(Point(75, 320), number_of_progress)
+    top_text.draw(win)
+    bottom_text = Text(Point(75, 30), 'Progress')
+    bottom_text.draw(win)
+    
+    
+    
+    try:
+        student_record.clear() # clear the list
+        progression_dataset.clear() # clear the list
+        win.getMouse() # keep the window open
+        win.close() # close the window
+    except GraphicsError:
+        print("Window Closed")
+    
+    
+    
 
 
 
 # Main Program
 while start:
-    '''This loop will run until the user quits the program'''
+    '''
+    This loop will run until the user quits the program
+    Position is used to keep track of the list index
+    The loop will take the user input and append it to the list
+    The loop will check if the input is within the range
+    The loop will check if the input is an integer
+    The loop will check if the input is divisible by 20
+    '''
     try:
-        if position >= 0 and position < len(outcome_label): # check if the position is within the range of the list
-            credit = int(input(f'Please enter your credits at {outcome_label[position]}: '))
+        if position >= 0 and position < len(input_label): # check if the position is within the range of the list
+            credit = int(input(f'Please enter your credits at {input_label[position]}: '))
             if credit_validation(credit): # check if the input is within the range
-                
-                label = outcome_label[position]
-                if label == 'pass':
-                    pass_data.append(credit)
-                elif label == 'defer':
-                    defer_data.append(credit)
-                else:
-                    fail_data.append(credit)
-                
                 position += 1 # increment the position
                 student_record.append(credit) # append the input to the list
                 
@@ -121,26 +224,31 @@ while start:
             else:
                 # call the progression outcome function
                 progression_outcome(credit_list=student_record) 
-                
+                print("*** ------------- ***")
                 # Clear, reset and restart
-                restart = input('Q - Quit\nY - Yes\n').lower()
+                restart = input('Q - Quit\nY - Continue\n').lower()
                 if restart == 'y': # check if the user wants to quit
                     student_record.clear()
                     position = 0
                     continue 
                 else:
-                    
                     # print the progression outcome after the user quits
-                    for item in progression_dataset: # print the progression outcome
-                        for key, value in item.items(): # unpack the dictionary
-                            print(f'{key} - {value}') # print the outcome
+                    # Ex: {'Progress': '120,0,0'}
+                    format_data(progression_dataset)
                     
                     # call the histogram function
                     create_histogram(progression_dataset)
+                    
+                    # call the store file function
+                    store_file(progression_dataset)
+                    
                     # clear the list
                     student_record.clear()
                     # stop the loop
-                    start = False 
+                    # start = False
+                    break  
+                                
+                    
                 
     except ValueError: # check if the input is an integer
         position = position
