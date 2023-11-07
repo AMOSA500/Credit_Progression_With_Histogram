@@ -33,7 +33,7 @@ def progression_outcome(credit_list):
     The function will append a dictionary of outcome_dict into the progression_dataset list
     The function will unpack the list and check the progression outcome
     The function will append the dictionary to the list
-    The function will append the outcome label to the list
+    The function will append the outcome and number to the dictionary
     Reference: https://www.w3schools.com/python/python_dictionaries.asp
     
     Ex: {'Progress': '120,0,0'}
@@ -44,13 +44,13 @@ def progression_outcome(credit_list):
     fail_credit = credit_list[2]
     outcome_dict = {} # dictionary to store the progression outcome
     
-    
     # check the progression outcome
     display_value = f'{credit_list[0]},{credit_list[1]},{credit_list[2]}'
     
     if (pass_credit <= 40) and fail_credit >= 80:
         print('Exclude')
         outcome_dict['Exclude'] = display_value # Create a dictionary
+        # Count or update the number of each progression outcome
         if 'Exclude' in outcome_label: # check if the key is in the dictionary
             outcome_label['Exclude'] += 1 # increment the value 
         else:
@@ -60,14 +60,29 @@ def progression_outcome(credit_list):
     elif pass_credit <= 80 and fail_credit <= 60:
         print('Module Retriever')
         outcome_dict['Module Retriever'] = display_value
+        # Count or update the number of each progression outcome
+        if 'Retriever' in outcome_label:
+            outcome_label['Retriever'] += 1
+        else:
+            outcome_label['Retriever'] = 1
         
     elif (pass_credit == 100) and (defer_credit >= 0 or fail_credit >= 0):
         print('Module Trailer')
         outcome_dict['Module Trailer'] = display_value
+        # Count or update the number of each progression outcome
+        if 'Trailer' in outcome_label:
+            outcome_label['Trailer'] += 1
+        else:
+            outcome_label['Trailer'] = 1
     
     else:
         print('Progress')
         outcome_dict['Progress'] = display_value
+        # Count or update the number of each progression outcome
+        if 'Progress' in outcome_label:
+            outcome_label['Progress'] += 1
+        else:
+            outcome_label['Progress'] = 1
         
     
     # append the dictionary to the list        
@@ -102,8 +117,6 @@ def format_data(data):
         for key, value in item.items(): # unpack the dictionary
             formatted_data += f'{key} - {value}\n' # format the data
     return formatted_data # return the formatted data
-
-
 
 
 # variables to store the number of each progression outcome
@@ -144,9 +157,9 @@ def create_histogram(progression_dataset):
     The function will unpack the list and count the number of each progression outcome
     The function will create a window and draw a histogram
     Reference: https://www.geeksforgeeks.org/python-pil-imagedraw-draw-rectangle/
+    
     '''
     calculate_progress_outcome(progression_dataset)
-        
         
     # Create a window
     # Graphical User Interface
@@ -158,20 +171,36 @@ def create_histogram(progression_dataset):
     text_center.draw(win)
     
     # Create a bar for Progress
-    colour_list = ['#f9ca24', '#f0932b', '#eb4d4b', '#6ab04c']
+    colour_list = ['#78e08f', '#b8e994', '#079992', '#e55039']
     len_dataset = len(outcome_label)
-    for i in range(len_dataset):
-        
-        progress_bar = Rectangle(Point(100, 300), Point(50, 50))
+    i = 0
+    bar_width = 100
+    bar_spacing = 10
+    x = bar_spacing
+    label_space = 50
+    total = 0
+    
+
+    for key, value in outcome_label.items():
+        total += value
+        progress_bar = Rectangle(Point(x, label_space), Point(x + bar_width, label_space + (value*20))) 
         progress_bar.setFill(colour_list[i])
         progress_bar.draw(win)
+        
+        # Create a text for Progress
+        top_text = Text(Point(x + (bar_width/2), label_space + (value*30)), value)
+        top_text.draw(win)
+        
+        # Create a bottom text for Progress
+        bottom_text = Text(Point(x + (bar_width /2), label_space - 10),  key)
+        bottom_text.setSize(8)
+        bottom_text.draw(win)
+        i += 1
+        x += bar_width + bar_spacing
     
-    top_text = Text(Point(75, 320), number_of_progress)
-    top_text.draw(win)
-    bottom_text = Text(Point(75, 30), 'Progress')
+    bottom_text = Text(Point(50, label_space - 30),  f'Total: {total}')
+    bottom_text.setSize(8)
     bottom_text.draw(win)
-    
-    
     
     try:
         student_record.clear() # clear the list
@@ -180,11 +209,7 @@ def create_histogram(progression_dataset):
         win.close() # close the window
     except GraphicsError:
         print("Window Closed")
-    
-    
-    
-
-
+        
 
 # Main Program
 while start:
