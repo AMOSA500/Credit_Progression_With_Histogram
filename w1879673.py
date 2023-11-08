@@ -67,7 +67,7 @@ def progression_outcome(credit_list):
             outcome_label['Retriever'] = 1
         
     elif (pass_credit == 100) and (defer_credit >= 0 or fail_credit >= 0):
-        print('Module Trailer')
+        print('Progress (Module Trailer)')
         outcome_dict['Module Trailer'] = display_value
         # Count or update the number of each progression outcome
         if 'Trailer' in outcome_label:
@@ -230,20 +230,20 @@ while start:
                 
             else:
                 position = position # position remains the same
-                print("Out of range or Score must be divisible by 20")
+                print("Out of range")
                 
         else: # if the position is out of range
             print(f'Pass: {student_record[0]:4}\nDefer: {student_record[1]:3}\nFail: {student_record[2]:4}')
             total_credit = sum(student_record) # sum the list
             if total_credit != hightest_credit: # check if the total is equal to 120
-                print('Total Incorrect. Start Again')
+                print('Total Incorrect')
                 student_record.clear() # clear the list
                 position = 0
                 continue
             else:
                 # call the progression outcome function
                 progression_outcome(credit_list=student_record) 
-                print("*** ------------- ***")
+                print("*** ------RESTART------- ***")
                 # Clear, reset and restart
                 restart = input('Q - Quit\nY - Continue\n').lower()
                 if restart == 'y': # check if the user wants to quit
