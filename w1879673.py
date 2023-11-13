@@ -98,11 +98,11 @@ def store_file(data):
     Reference: https://www.w3schools.com/python/python_file_write.asp
     '''
     # s_no = 0 # serial number
-    # with open('progression.txt','w') as file: # open the file
-    #     for item in data: # unpack the list
-    #         for key, value in item.items(): # unpack the dictionary
-    #             s_no += 1 # increment the serial number
-    #             file.write(f'{s_no}. {key} - {value}\n') # write to the file
+    with open('progression.txt','w') as file: # open the file
+        for item in data: # unpack the list
+            for key, value in item.items(): # unpack the dictionary
+                s_no += 1 # increment the serial number
+                file.write(f'str{s_no}. str{key} - str{value}\n') # write to the file
   
 
 def format_data(data):
