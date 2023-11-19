@@ -4,10 +4,10 @@
 # Date: 19.11.2023
 
 from graphics import *
-from art import logo
+from w1879673_art import logo
+from w1879673_readfile import get_credits
 
-
-
+# print the logo
 print(logo)
 
 
@@ -114,6 +114,7 @@ def store_file(data):
         file.write(data)
   
 
+# Format Data Function
 def format_data(data):
     '''
     This function will format the data
@@ -125,11 +126,17 @@ def format_data(data):
     # 120     0       0\n
     Reference: https://www.w3schools.com/python/ref_string_expandtabs.asp
     '''
-    headers = 'Pass\tDefer\tFail\tOutcome\n'
+    
     # Create a separator line
+    headers = 'Pass\tDefer\tFail\tOutcome\n'
     separator = "-" * len(headers.expandtabs()) # expandtabs() method to expand the tab
     terminal_formatted_data = headers + separator + '\n'
-    text_format = 'Pass\tDefer\tFail\n'
+    
+    # Create a text file header
+    text_file_header = 'Pass\tDefer\tFail\n'
+    text_file_separator = "-" * len(headers.expandtabs())
+    text_format = text_file_header + text_file_separator + '\n'
+    
     for item in data: # unpack the list {'Progress': '120,0,0'}
         for key, value in item.items(): # unpack the dictionary and get the value. Ex: 120,0,0
             value = value.split(',') # split the value into a list
@@ -204,65 +211,89 @@ def create_histogram(progression_dataset):
         print("Window Closed")
         
 
-# Main Program
+# Main Program Starts Here
+filepath = "progression.txt" # filepath to read the file
 while start:
     '''
     This loop will run until the user quits the program
     Position is used to keep track of the list index
     The loop will take the user input and append it to the list
-    The loop will check if the input is within the range
-    The loop will check if the input is an integer
-    The loop will check if the input is divisible by 20
+    The loop will check if the input is within the range,an integer, and divisible by 20
+    progression.txt file will be read if the user enters 'y'
+    NB: Follow the pattern to enter the credits
     '''
     try:
-        if position >= 0 and position < len(input_label): # check if the position is within the range of the list
-            credit = int(input(f'Please enter your credits at {input_label[position]}: '))
-            if credit_validation(credit): # check if the input is within the range
-                position += 1 # increment the position
-                student_record.append(credit) # append the input to the list
-                
-            else:
-                position = position # position remains the same
-                print("Out of range")
-                
-        else: # if the position is out of range
-            print(f'Pass: {student_record[0]:4}\nDefer: {student_record[1]:3}\nFail: {student_record[2]:4}')
-            total_credit = sum(student_record) # sum the list
-            if total_credit != hightest_credit: # check if the total is equal to 120
-                print('Total Incorrect')
-                student_record.clear() # clear the list
-                position = 0
-                continue
-            else:
-                # call the progression outcome function
-                progression_outcome(credit_list=student_record) 
-                print("*** ------RESTART------- ***")
-                # Clear, reset and restart
-                restart = input('Q - Quit\nY - Continue\n').lower()
-                if restart == 'y': # check if the user wants to quit
-                    student_record.clear()
-                    position = 0
-                    continue 
+        read_file = input('Do you have Data in progression.txt file to read?\nY - Yes\nN - No - Enter Manually\n').lower()
+        if read_file == 'n':
+            if position >= 0 and position < len(input_label): # check if the position is within the range of the list
+                credit = int(input(f'Please enter your credits at {input_label[position]}: '))
+                if credit_validation(credit): # check if the input is within the range
+                    position += 1 # increment the position
+                    student_record.append(credit) # append the input to the list
+                    
                 else:
-                    # print the progression outcome after the user quits
-                    # Ex: {'Progress': '120,0,0'}
-                    formatted_data =  format_data(progression_dataset)
-                    print(formatted_data)
+                    position = position # position remains the same
+                    print("Out of range")
                     
-                    # print the number of each progression outcome
-                    print(outcome_label)
+            else: # if the position is out of range
+                print(f'Pass: {student_record[0]:4}\nDefer: {student_record[1]:3}\nFail: {student_record[2]:4}')
+                total_credit = sum(student_record) # sum the list
+                if total_credit != hightest_credit: # check if the total is equal to 120
+                    print('Total Incorrect')
+                    student_record.clear() # clear the list
+                    position = 0
+                    continue
+                else:
+                    # call the progression outcome function
+                    progression_outcome(credit_list=student_record) 
+                    print("*** ------RESTART------- ***")
+                    # Clear, reset and restart
+                    restart = input('Q - Quit\nY - Continue\n').lower()
+                    if restart == 'y': # check if the user wants to quit
+                        student_record.clear()
+                        position = 0
+                        continue 
+                    else:
+                        # print the progression outcome after the user quits
+                        # Ex: {'Progress': '120,0,0'}
+                        formatted_data =  format_data(progression_dataset)
+                        print(formatted_data)
+                        
+                        # print the number of each progression outcome
+                        print(outcome_label)
+                        
+                        # call the histogram function
+                        create_histogram(progression_dataset)
+                        
+                        
+                        
+                        # clear the list
+                        student_record.clear()
+                        # stop the loop
+                        # start = False
+                        break 
                     
-                    # call the histogram function
-                    create_histogram(progression_dataset)
-                    
-                    
-                    
-                    # clear the list
-                    student_record.clear()
-                    # stop the loop
-                    # start = False
-                    break  
-        
+        # read the file if the user enters 'y'
+        else:
+            credit_list = get_credits(filepath)
+            credit_sum = 0
+            if credit_list:
+                for index in credit_list:
+                    for item in index:
+                        if credit_validation(item): # check if the input is within the range
+                            credit_sum += item # sum the list
+                        else:
+                            print("Out of range")
+                            student_record.clear() # clear the list
+                            credit_sum = 0
+                            continue
+                    if credit_sum == hightest_credit:
+                        progression_outcome(credit_list=index) # Pass list to progression_outcome function
+                        credit_sum = 0
+                    else:
+                        print('Total Incorrect')
+                        credit_sum = 0
+                        continue
     except ValueError: # check if the input is an integer
         position = position
         print(f'Integer required')
