@@ -1,5 +1,11 @@
+# I declare that my work contains no examples of misconduct, such as plagiarism, or collusion.
+# Any code taken from other sources is referenced within my code solution.
+# Student ID: W1879673
+# Date: 19.11.2023
+
 from graphics import *
 from art import logo
+
 
 
 print(logo)
@@ -50,6 +56,7 @@ def progression_outcome(credit_list):
     if (pass_credit <= 40) and fail_credit >= 80:
         print('Exclude')
         outcome_dict['Exclude'] = display_value # Create a dictionary
+        
         # Count or update the number of each progression outcome
         if 'Exclude' in outcome_label: # check if the key is in the dictionary
             outcome_label['Exclude'] += 1 # increment the value 
@@ -60,6 +67,7 @@ def progression_outcome(credit_list):
     elif pass_credit <= 80 and fail_credit <= 60:
         print('Module Retriever')
         outcome_dict['Module Retriever'] = display_value
+        
         # Count or update the number of each progression outcome
         if 'Retriever' in outcome_label:
             outcome_label['Retriever'] += 1
@@ -69,6 +77,7 @@ def progression_outcome(credit_list):
     elif (pass_credit == 100) and (defer_credit >= 0 or fail_credit >= 0):
         print('Progress (Module Trailer)')
         outcome_dict['Module Trailer'] = display_value
+        
         # Count or update the number of each progression outcome
         if 'Trailer' in outcome_label:
             outcome_label['Trailer'] += 1
@@ -78,6 +87,7 @@ def progression_outcome(credit_list):
     else:
         print('Progress')
         outcome_dict['Progress'] = display_value
+        
         # Count or update the number of each progression outcome
         if 'Progress' in outcome_label:
             outcome_label['Progress'] += 1
@@ -96,13 +106,12 @@ def store_file(data):
     The function will take a list as an argument
     The function will unpack the list and write the outcome to the file
     Reference: https://www.w3schools.com/python/python_file_write.asp
+
     '''
-    # s_no = 0 # serial number
-    with open('progression.txt','w') as file: # open the file
-        for item in data: # unpack the list
-            for key, value in item.items(): # unpack the dictionary
-                s_no += 1 # increment the serial number
-                file.write(f'str{s_no}. str{key} - str{value}\n') # write to the file
+    # Filepath to save the dictionary
+    filepath = 'progression.txt'
+    with open(filepath,'w') as file: # open the file
+        file.write(data)
   
 
 def format_data(data):
@@ -111,43 +120,27 @@ def format_data(data):
     The function will take a list as an argument
     The function will unpack the list and format the data
     The function will return a list
+    # print(formatted_data) 
+    # Pass    Defer   Fail\n
+    # 120     0       0\n
+    Reference: https://www.w3schools.com/python/ref_string_expandtabs.asp
     '''
-    formatted_data = ''
-    for item in data: # unpack the list
-        for key, value in item.items(): # unpack the dictionary
-            formatted_data += f'{key} - {value}\n' # format the data
-    return formatted_data # return the formatted data
+    headers = 'Pass\tDefer\tFail\tOutcome\n'
+    # Create a separator line
+    separator = "-" * len(headers.expandtabs()) # expandtabs() method to expand the tab
+    terminal_formatted_data = headers + separator + '\n'
+    text_format = 'Pass\tDefer\tFail\n'
+    for item in data: # unpack the list {'Progress': '120,0,0'}
+        for key, value in item.items(): # unpack the dictionary and get the value. Ex: 120,0,0
+            value = value.split(',') # split the value into a list
+            # <: left align
+            terminal_formatted_data += f'{value[0]:<4}\t{value[1]:<5}\t{value[2]:<4}\t{key:<7}\n' 
+            text_format += f'{value[0]:<4}\t{value[1]:<5}\t{value[2]:<4}\n' 
+    # call the store file function
+    store_file(text_format)   
+        
+    return terminal_formatted_data
 
-
-# variables to store the number of each progression outcome
-number_of_progress = number_of_trailer = number_of_retriever = number_of_exclude = 0 
-
-# Calculate progress outcome
-def calculate_progress_outcome(data): 
-    '''
-    This function will calculate the amount of progression outcome
-    The function will take a list as an argument
-    The function will unpack the list and calculate each progression outcome
-    The function will set the value to a variable
-    The function will return the variable
-    The function has a global variable to store the number of each progression outcome
-    Reference: https://www.w3schools.com/python/python_dictionaries_loop.asp
-    '''
-    global number_of_progress, number_of_trailer, number_of_retriever, number_of_exclude
-    
-    for item in progression_dataset:
-        # unpack the dictionary
-        # _ is used to ignore the value
-        for key, _ in item.items(): 
-            if key == 'Progress':
-                number_of_progress += 1
-            elif key == 'Module Trailer':
-                number_of_trailer += 1
-            elif key == 'Module Retriever':
-                number_of_retriever += 1
-            else:  
-                number_of_exclude += 1
-    
 
 # Histogram Function
 def create_histogram(progression_dataset):
@@ -156,10 +149,11 @@ def create_histogram(progression_dataset):
     The function will take a list as an argument
     The function will unpack the list and count the number of each progression outcome
     The function will create a window and draw a histogram
+    The function will draw a bar for each progression outcome and display the number of each progression outcome
+    The progress bar is filled with a different colour and 20 pixels was added to the height
     Reference: https://www.geeksforgeeks.org/python-pil-imagedraw-draw-rectangle/
     
     '''
-    calculate_progress_outcome(progression_dataset)
         
     # Create a window
     # Graphical User Interface
@@ -171,21 +165,20 @@ def create_histogram(progression_dataset):
     text_center.draw(win)
     
     # Create a bar for Progress
-    colour_list = ['#78e08f', '#b8e994', '#079992', '#e55039']
-    len_dataset = len(outcome_label)
+    colour_list = ['#78e08f', '#b8e994', '#079992', '#e55039'] # list of colours
     i = 0
-    bar_width = 100
-    bar_spacing = 10
-    x = bar_spacing
-    label_space = 50
-    total = 0
+    bar_width = 70 # width of the bar
+    bar_spacing = 10 # spacing between the bars
+    x = bar_spacing # x coordinate
+    label_space = 50 # y coordinate
+    total = 0 # total number of each progression outcome
     
 
-    for key, value in outcome_label.items():
-        total += value
-        progress_bar = Rectangle(Point(x, label_space), Point(x + bar_width, label_space + (value*20))) 
-        progress_bar.setFill(colour_list[i])
-        progress_bar.draw(win)
+    for key, value in outcome_label.items(): # unpack the dictionary
+        total += value # sum the value
+        progress_bar = Rectangle(Point(x, label_space), Point(x + bar_width, label_space + (value*20))) # create a bar
+        progress_bar.setFill(colour_list[i]) # fill the bar with a colour
+        progress_bar.draw(win)  # draw the bar
         
         # Create a text for Progress
         top_text = Text(Point(x + (bar_width/2), label_space + (value*30)), value)
@@ -262,17 +255,14 @@ while start:
                     # call the histogram function
                     create_histogram(progression_dataset)
                     
-                    # call the store file function
-                    store_file(progression_dataset)
+                    
                     
                     # clear the list
                     student_record.clear()
                     # stop the loop
                     # start = False
                     break  
-                                
-                    
-                
+        
     except ValueError: # check if the input is an integer
         position = position
         print(f'Integer required')
