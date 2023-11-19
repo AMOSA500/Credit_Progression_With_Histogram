@@ -38,8 +38,7 @@ def progression_outcome(credit_list):
     The function will take a list as an argument
     The function will append a dictionary of outcome_dict into the progression_dataset list
     The function will unpack the list and check the progression outcome
-    The function will append the dictionary to the list
-    The function will append the outcome and number to the dictionary
+    The function will append the dictionary to the list, outcome and number to the dictionary
     Reference: https://www.w3schools.com/python/python_dictionaries.asp
     
     Ex: {'Progress': '120,0,0'}
@@ -134,7 +133,7 @@ def format_data(data):
     
     # Create a text file header
     text_file_header = 'Pass\tDefer\tFail\n'
-    text_file_separator = "-" * len(headers.expandtabs())
+    text_file_separator = "-" * len(text_file_header.expandtabs())
     text_format = text_file_header + text_file_separator + '\n'
     
     for item in data: # unpack the list {'Progress': '120,0,0'}
@@ -213,6 +212,7 @@ def create_histogram(progression_dataset):
 
 # Main Program Starts Here
 filepath = "progression.txt" # filepath to read the file
+read_file = input('Do you have Data in progression.txt file to read?\nY - Yes\nN - No - Enter Manually\n').lower()
 while start:
     '''
     This loop will run until the user quits the program
@@ -223,7 +223,7 @@ while start:
     NB: Follow the pattern to enter the credits
     '''
     try:
-        read_file = input('Do you have Data in progression.txt file to read?\nY - Yes\nN - No - Enter Manually\n').lower()
+        
         if read_file == 'n':
             if position >= 0 and position < len(input_label): # check if the position is within the range of the list
                 credit = int(input(f'Please enter your credits at {input_label[position]}: '))
@@ -259,44 +259,56 @@ while start:
                         formatted_data =  format_data(progression_dataset)
                         print(formatted_data)
                         
-                        # print the number of each progression outcome
-                        print(outcome_label)
-                        
                         # call the histogram function
                         create_histogram(progression_dataset)
                         
-                        
-                        
                         # clear the list
                         student_record.clear()
-                        # stop the loop
-                        # start = False
                         break 
                     
         # read the file if the user enters 'y'
         else:
+            input('Press Enter to read the file\n')
             credit_list = get_credits(filepath)
             credit_sum = 0
+            len_list = len(credit_list) # get the length of the list
+            x = 0 
             if credit_list:
-                for index in credit_list:
-                    for item in index:
+                for items in credit_list:
+                    for item in items:
                         if credit_validation(item): # check if the input is within the range
                             credit_sum += item # sum the list
                         else:
-                            print("Out of range")
-                            student_record.clear() # clear the list
+                            print("Out of range. Please check the file, credit must be within 0 and 120 and divisible by 20")
                             credit_sum = 0
-                            continue
+                            break
                     if credit_sum == hightest_credit:
-                        progression_outcome(credit_list=index) # Pass list to progression_outcome function
+                        # Pass list to progression_outcome function
+                        progression_outcome(credit_list=items) 
                         credit_sum = 0
+                        x += 1
                     else:
-                        print('Total Incorrect')
+                        print('Total Incorrect for one of your records. Please check the file, total must be 120')
                         credit_sum = 0
-                        continue
+                        break
+                    
+                # print the progression outcome after the user quits
+                if x == len_list:
+                    formatted_data =  format_data(progression_dataset)
+                    print(formatted_data)
+                                    
+                    # call the histogram function
+                    create_histogram(progression_dataset)
+                    break 
+            else:
+                print('No Data in the file')
+                break
     except ValueError: # check if the input is an integer
         position = position
         print(f'Integer required')
+        if read_file == 'y':
+            print('Please check the file, credit must be an integer')
+            progression_dataset.clear()
         continue
         
     

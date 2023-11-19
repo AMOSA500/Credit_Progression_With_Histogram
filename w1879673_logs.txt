@@ -1,0 +1,1916 @@
+Module Retriever - 80,20,20
+Module Retriever - 60,0,60
+Exclude - 40,0,80
+
+{'Progress': 1, 'Trailer': 1, 'Retriever': 2, 'Exclude': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 80
+Please enter your credits at defer: 20
+Please enter your credits at fail: 20
+Pass:   80
+Defer:  20
+Fail:   20
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 40
+Please enter your credits at defer: 0
+Please enter your credits at fail: 80
+Pass:   40
+Defer:   0
+Fail:   80
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 100
+Please enter your credits at defer: 0
+Please enter your credits at fail: 20
+Pass:  100
+Defer:   0
+Fail:   20
+Progress (Module Trailer)
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+ 
+Module Retriever - 80,20,20
+Exclude - 40,0,80
+Module Trailer - 100,0,20
+
+{'Retriever': 1, 'Exclude': 1, 'Trailer': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 100
+Please enter your credits at defer: 0
+Please enter your credits at fail: 20
+Pass:  100
+Defer:   0
+Fail:   20
+Progress (Module Trailer)
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 00
+Please enter your credits at defer: 0
+Please enter your credits at fail: 120
+Pass:    0
+Defer:   0
+Fail:  120
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+
+Module Trailer - 100,0,20
+Exclude - 0,0,120
+
+{'Trailer': 1, 'Exclude': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"       
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 120
+Please enter your credits at defer: 0
+Please enter your credits at fail: 0
+Pass:  120
+Defer:   0
+Fail:    0
+Progress
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+
+Progress - 120,0,0
+
+{'Progress': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 120
+Please enter your credits at defer: 0
+Please enter your credits at fail: 0
+Pass:  120
+Defer:   0
+Fail:    0
+Progress
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+
+Progress - 120,0,0
+
+{'Progress': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> 
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 120
+Please enter your credits at defer: .0
+Integer required
+Please enter your credits at defer: 0
+Please enter your credits at fail: 0
+Pass:  120
+Defer:   0
+Fail:    0
+Progress
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+q
+Progress - 120,0,0
+
+{'Progress': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]Progress - 120,0,0
+
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]Progress - 120,0,0
+
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 100
+Please enter your credits at defer: 0
+Please enter your credits at fail: 20
+Pass:  100
+Defer:   0
+Fail:   20
+Progress (Module Trailer)
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 80
+Please enter your credits at defer: 20
+Please enter your credits at fail: 20
+Pass:   80
+Defer:  20
+Fail:   20
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 60
+Please enter your credits at defer: 0
+Please enter your credits at fail: 60
+Pass:   60
+Defer:   0
+Fail:   60
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 40
+Please enter your credits at defer: 0
+Please enter your credits at fail: 80
+Pass:   40
+Defer:   0
+Fail:   80
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 0
+Please enter your credits at defer: 0
+Please enter your credits at fail: 120
+Pass:    0
+Defer:   0
+Fail:  120
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+q
+Module Trailer - 100,0,20
+Module Retriever - 80,20,20
+Module Retriever - 60,0,60
+Exclude - 40,0,80
+Exclude - 0,0,120
+
+{'Trailer': 1, 'Retriever': 2, 'Exclude': 2}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Module Trailer - 100,0,20
+
+Module Retriever - 80,20,20
+
+Module Retriever - 60,0,60
+
+Exclude - 40,0,80
+
+Exclude - 0,0,120
+
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['Module', 'Trailer', '-', '100,0,20']
+['Module', 'Retriever', '-', '80,20,20']
+['Module', 'Retriever', '-', '60,0,60']
+['Exclude', '-', '40,0,80']
+['Exclude', '-', '0,0,120']
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Module
+Trailer
+-
+100,0,20
+Module
+Retriever
+-
+80,20,20
+Module
+Retriever
+-
+60,0,60
+Exclude
+-
+40,0,80
+Exclude
+-
+0,0,120
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Module <class 'str'>
+Trailer <class 'str'>
+- <class 'str'>
+100,0,20 <class 'str'>
+Module <class 'str'>
+Retriever <class 'str'>
+- <class 'str'>
+80,20,20 <class 'str'>
+Module <class 'str'>
+Retriever <class 'str'>
+- <class 'str'>
+60,0,60 <class 'str'>
+Exclude <class 'str'>
+- <class 'str'>
+40,0,80 <class 'str'>
+Exclude <class 'str'>
+- <class 'str'>
+0,0,120 <class 'str'>
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Module <class 'str'>
+Trailer <class 'str'>
+- <class 'str'>
+100,0,20 <class 'str'>
+Module <class 'str'>
+Retriever <class 'str'>
+- <class 'str'>
+80,20,20 <class 'str'>
+Module <class 'str'>
+Retriever <class 'str'>
+- <class 'str'>
+60,0,60 <class 'str'>
+Exclude <class 'str'>
+- <class 'str'>
+40,0,80 <class 'str'>
+Exclude <class 'str'>
+- <class 'str'>
+0,0,120 <class 'str'>
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Module <class 'str'>
+Trailer <class 'str'>
+- <class 'str'>
+100,0,20 <class 'str'>
+Module <class 'str'>
+Retriever <class 'str'>
+- <class 'str'>
+80,20,20 <class 'str'>
+Module <class 'str'>
+Retriever <class 'str'>
+- <class 'str'>
+60,0,60 <class 'str'>
+Exclude <class 'str'>
+- <class 'str'>
+40,0,80 <class 'str'>
+Exclude <class 'str'>
+- <class 'str'>
+0,0,120 <class 'str'>
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Module Trailer - 100 <class 'str'>
+0 <class 'str'>
+20
+ <class 'str'>
+Module Retriever - 80 <class 'str'>
+20 <class 'str'>
+20
+ <class 'str'>
+Module Retriever - 60 <class 'str'>
+0 <class 'str'>
+60
+ <class 'str'>
+Exclude - 40 <class 'str'>
+0 <class 'str'>
+80
+ <class 'str'>
+Exclude - 0 <class 'str'>
+0 <class 'str'>
+120
+ <class 'str'>
+[0, 20, 20, 20, 0, 60, 0, 80, 0, 120]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['Module Trailer - 100', '0', '20\n'] <class 'list'>
+['Module Retriever - 80', '20', '20\n'] <class 'list'>
+['Module Retriever - 60', '0', '60\n'] <class 'list'>
+['Exclude - 40', '0', '80\n'] <class 'list'>
+['Exclude - 0', '0', '120\n'] <class 'list'>
+[0, 20, 20, 20, 0, 60, 0, 80, 0, 120]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['Module Trailer', '100,0,20\n'] <class 'list'>
+['Module Retriever', '80,20,20\n'] <class 'list'>
+['Module Retriever', '60,0,60\n'] <class 'list'>
+['Exclude', '40,0,80\n'] <class 'list'>
+['Exclude', '0,0,120\n'] <class 'list'>
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['Module Trailer', '100,0,20\n'] <class 'list'>
+['Module Retriever', '80,20,20\n'] <class 'list'>
+['Module Retriever', '60,0,60\n'] <class 'list'>
+['Exclude', '40,0,80\n'] <class 'list'>
+['Exclude', '0,0,120\n'] <class 'list'>
+[{'Module Trailer': 20, 'Module Retriever': 60, 'Exclude': 120}]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['100', '0', '20\n'] <class 'list'>
+['80', '20', '20\n'] <class 'list'>
+['60', '0', '60\n'] <class 'list'>
+['40', '0', '80\n'] <class 'list'>
+['0', '0', '120\n'] <class 'list'>
+[{'Module Trailer': 20, 'Module Retriever': 60, 'Exclude': 120}]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['100', '0', '20\n'] <class 'list'>
+['80', '20', '20\n'] <class 'list'>
+['60', '0', '60\n'] <class 'list'>
+['40', '0', '80\n'] <class 'list'>
+['0', '0', '120\n'] <class 'list'>
+[{}]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['100', '0', '20\n'] <class 'list'>
+['80', '20', '20\n'] <class 'list'>
+['60', '0', '60\n'] <class 'list'>
+['40', '0', '80\n'] <class 'list'>
+['0', '0', '120\n'] <class 'list'>
+[{'Module Trailer': [100, 0, 20], 'Module Retriever': [80, 20, 20, 60, 0, 60], 'Exclude': [40, 0, 80, 0, 0, 120]}]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['100', '0', '20\n'] <class 'list'>
+['80', '20', '20\n'] <class 'list'>
+['60', '0', '60\n'] <class 'list'>
+['40', '0', '80\n'] <class 'list'>
+['0', '0', '120\n'] <class 'list'>
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['100', '0', '20\n'] <class 'list'>
+['80', '20', '20\n'] <class 'list'>
+['60', '0', '60\n'] <class 'list'>
+['40', '0', '80\n'] <class 'list'>
+['0', '0', '120\n'] <class 'list'>
+[{'Module Trailer': ['100', '0', '20\n'], 'Module Retriever': ['60', '0', '60\n'], 'Exclude': ['0', '0', '120\n']}]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['100', '0', '20\n'] <class 'list'>
+['80', '20', '20\n'] <class 'list'>
+['60', '0', '60\n'] <class 'list'>
+['40', '0', '80\n'] <class 'list'>
+['0', '0', '120\n'] <class 'list'>
+[{'Module Trailer': [100, 0, 20], 'Module Retriever': [60, 0, 60], 'Exclude': [0, 0, 120]}]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['100', '0', '20\n'] <class 'list'>
+['80', '20', '20\n'] <class 'list'>
+['60', '0', '60\n'] <class 'list'>
+['40', '0', '80\n'] <class 'list'>
+['0', '0', '120\n'] <class 'list'>
+[{'Module Trailer': [100, 0, 20], 'Module Retriever': [60, 0, 60], 'Exclude': [0, 0, 120]}]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Traceback (most recent call last):
+  File "g:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework\test.py", line 8, in <module>
+    numb_list = int(split_line[1].split(','))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[100, 0, 20, 80, 20, 20, 60, 0, 60, 40, 0, 80, 0, 0, 120]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Traceback (most recent call last):
+  File "g:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework\test.py", line 10, in <module>
+    i = int(i)
+        ^^^^^^
+KeyboardInterrupt
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[[100, 0, 20, 80, 20, 20, 60, 0, 60, 40, 0, 80, 0, 0, 120]]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[[100, 0, 20], [80, 20, 20], [60, 0, 60], [40, 0, 80], [0, 0, 120]]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Traceback (most recent call last):
+  File "g:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework\test.py", line 10, in <module>
+    file_dict.append({split_line[0]:numb_list})
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'append'
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Traceback (most recent call last):
+  File "g:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework\test.py", line 4, in <module>
+    file_dict = {[]}
+                ^^^^
+TypeError: unhashable type: 'list'
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[[100, 0, 20], [80, 20, 20], [60, 0, 60], [40, 0, 80], [0, 0, 120]]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[{'Module Trailer': [100, 0, 20]}]
+[{'Module Trailer': [100, 0, 20]}, {'Module Retriever': [80, 20, 20]}]
+[{'Module Trailer': [100, 0, 20]}, {'Module Retriever': [80, 20, 20]}, {'Module Retriever': [60, 0, 60]}]
+[{'Module Trailer': [100, 0, 20]}, {'Module Retriever': [80, 20, 20]}, {'Module Retriever': [60, 0, 60]}, {'Exclude': [40, 0, 80]}]
+[{'Module Trailer': [100, 0, 20]}, {'Module Retriever': [80, 20, 20]}, {'Module Retriever': [60, 0, 60]}, {'Exclude': [40, 0, 80]}, {'Exclude': [0, 0, 120]}]
+[[100, 0, 20], [80, 20, 20], [60, 0, 60], [40, 0, 80], [0, 0, 120]]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[<_io.TextIOWrapper name='progression.txt' mode='r' encoding='cp1252'>, <_io.TextIOWrapper name='progression.txt' mode='r' encoding='cp1252'>, <_io.TextIOWrapper name='progression.txt' mode='r' encoding='cp1252'>, <_io.TextIOWrapper name='progression.txt' mode='r' encoding='cp1252'>, <_io.TextIOWrapper name='progression.txt' mode='r' encoding='cp1252'>]       
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[[100, 0, 20], [80, 20, 20], [60, 0, 60], [40, 0, 80], [0, 0, 120]]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Traceback (most recent call last):
+  File "g:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework\test.py", line 10, in <module>
+    file_dict.append({split_line[0]:numb_list})
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'append'
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Traceback (most recent call last):
+  File "g:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework\test.py", line 12, in <module>
+    for key,value in i.items():
+                     ^^^^^^^
+AttributeError: 'str' object has no attribute 'items'
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[[100, 0, 20], [80, 20, 20], [60, 0, 60], [40, 0, 80], [0, 0, 120]]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[{'Module Trailer': [100, 0, 20]}, {'Module Retriever': [80, 20, 20]}, {'Module Retriever': [60, 0, 60]}, {'Exclude': [40, 0, 80]}, {'Exclude': [0, 0, 120]}]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 120
+Please enter your credits at defer: 0
+Please enter your credits at fail: 0
+Pass:  120
+Defer:   0
+Fail:    0
+Progress
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 100
+Please enter your credits at defer: 0
+Please enter your credits at fail: 20
+Pass:  100
+Defer:   0
+Fail:   20
+Progress (Module Trailer)
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 80
+Please enter your credits at defer: 20
+Please enter your credits at fail: 20
+Pass:   80
+Defer:  20
+Fail:   20
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 60
+Please enter your credits at defer: 0
+Please enter your credits at fail: 60
+Pass:   60
+Defer:   0
+Fail:   60
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 40
+Please enter your credits at defer: 0
+Please enter your credits at fail: 80
+Pass:   40
+Defer:   0
+Fail:   80
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 0
+Please enter your credits at defer: 0
+Please enter your credits at fail: 120
+Pass:    0
+Defer:   0
+Fail:  120
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+q
+Pass  Defer  Fail
+120  0  0
+100  0  20
+80  20  20
+60  0  60
+40  0  80
+0  0  120
+
+{'Progress': 1, 'Trailer': 1, 'Retriever': 2, 'Exclude': 2}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 120
+Please enter your credits at defer: 0
+Please enter your credits at fail: 0
+Pass:  120
+Defer:   0
+Fail:    0
+Progress
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 100
+Please enter your credits at defer: 0
+Please enter your credits at fail: 20
+Pass:  100
+Defer:   0
+Fail:   20
+Progress (Module Trailer)
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 80
+Please enter your credits at defer: 20
+Please enter your credits at fail: 20
+Pass:   80
+Defer:  20
+Fail:   20
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 60
+Please enter your credits at defer: 0
+Please enter your credits at fail: 60
+Pass:   60
+Defer:   0
+Fail:   60
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 40
+Please enter your credits at defer: 0
+Please enter your credits at fail: 80
+Pass:   40
+Defer:   0
+Fail:   80
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+q
+Pass  Defer  Fail
+120     0       0
+100     0       20
+80      20      20
+60      0       60
+40      0       80
+
+{'Progress': 1, 'Trailer': 1, 'Retriever': 2, 'Exclude': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 120
+Please enter your credits at defer: 0
+Please enter your credits at fail: 0
+Pass:  120
+Defer:   0
+Fail:    0
+Progress
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 100
+Please enter your credits at defer: 0
+Please enter your credits at fail: 20
+Pass:  100
+Defer:   0
+Fail:   20
+Progress (Module Trailer)
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 80
+Please enter your credits at defer: 20
+Please enter your credits at fail: 20
+Pass:   80
+Defer:  20
+Fail:   20
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 60
+Please enter your credits at defer: 0
+Please enter your credits at fail: 60
+Pass:   60
+Defer:   0
+Fail:   60
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 40
+Please enter your credits at defer: 0
+Please enter your credits at fail: 80
+Pass:   40
+Defer:   0
+Fail:   80
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+q
+Pass    Defer   Fail
+120     0       0
+100     0       20
+80      20      20
+60      0       60
+40      0       80
+
+{'Progress': 1, 'Trailer': 1, 'Retriever': 2, 'Exclude': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Pass    Defer   Fail
+--------------------
+80      20      10
+50      30      40
+
+Table saved to table_output.txt
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Pass    Defer   Fail
+--------------------
+80      20      10
+50      30      40
+
+Table saved to table_output.txt
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+Pass    Defer   Fail
+--------------------
+80      20      10
+50      30      40
+
+Table saved to table_output.txt
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 120
+Please enter your credits at defer: 0
+Please enter your credits at fail: 0
+Pass:  120
+Defer:   0
+Fail:    0
+Progress
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 100
+Please enter your credits at defer: 0
+Please enter your credits at fail: 20
+Pass:  100
+Defer:   0
+Fail:   20
+Progress (Module Trailer)
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 80
+Please enter your credits at defer: 20
+Please enter your credits at fail: 20
+Pass:   80
+Defer:  20
+Fail:   20
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 60
+Please enter your credits at defer: 0
+Please enter your credits at fail: 60
+Pass:   60
+Defer:   0
+Fail:   60
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 40
+Please enter your credits at defer: 0
+Please enter your credits at fail: 80
+Pass:   40
+Defer:   0
+Fail:   80
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+q
+Pass    Defer   Fail
+---------------------
+120     0       0
+100     0       20
+80      20      20
+60      0       60
+40      0       80
+
+{'Progress': 1, 'Trailer': 1, 'Retriever': 2, 'Exclude': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 120
+Please enter your credits at defer: 0
+Please enter your credits at fail: 0
+Pass:  120
+Defer:   0
+Fail:    0
+Progress
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 100
+Please enter your credits at defer: 0
+Please enter your credits at fail: 20
+Pass:  100
+Defer:   0
+Fail:   20
+Progress (Module Trailer)
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 80
+Please enter your credits at defer: 20
+Please enter your credits at fail: 20
+Pass:   80
+Defer:  20
+Fail:   20
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 60
+Please enter your credits at defer: 0
+Please enter your credits at fail: 60
+Pass:   60
+Defer:   0
+Fail:   60
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 40
+Please enter your credits at defer: 0
+Please enter your credits at fail: 80
+Pass:   40
+Defer:   0
+Fail:   80
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+q
+Pass    Defer   Fail    Outcome
+--------------------------------
+120     0       0       Progress
+100     0       20      Module Trailer
+80      20      20      Module Retriever
+60      0       60      Module Retriever
+40      0       80      Exclude
+
+{'Progress': 1, 'Trailer': 1, 'Retriever': 2, 'Exclude': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework>
+
+
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 120
+Please enter your credits at defer: 0
+Please enter your credits at fail: 0
+Pass:  120
+Defer:   0
+Fail:    0
+Progress
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 100
+Please enter your credits at defer: 0
+Please enter your credits at fail: 20
+Pass:  100
+Defer:   0
+Fail:   20
+Progress (Module Trailer)
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 80
+Please enter your credits at defer: 20
+Please enter your credits at fail: 20
+Pass:   80
+Defer:  20
+Fail:   20
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 60
+Please enter your credits at defer: 0
+Please enter your credits at fail: 60
+Pass:   60
+Defer:   0
+Fail:   60
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 40
+Please enter your credits at defer: 0
+Please enter your credits at fail: 80
+Pass:   40
+Defer:   0
+Fail:   80
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+q
+Pass    Defer   Fail    Outcome
+--------------------------------
+120     0       0       Progress
+100     0       20      Module Trailer
+80      20      20      Module Retriever
+60      0       60      Module Retriever
+40      0       80      Exclude
+
+{'Progress': 1, 'Trailer': 1, 'Retriever': 2, 'Exclude': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: 120
+Please enter your credits at defer: 0
+Please enter your credits at fail: 0
+Pass:  120
+Defer:   0
+Fail:    0
+Progress
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 100
+Please enter your credits at defer: 0
+Please enter your credits at fail: 20
+Pass:  100
+Defer:   0
+Fail:   20
+Progress (Module Trailer)
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 80
+Please enter your credits at defer: 20
+Please enter your credits at fail: 20
+Pass:   80
+Defer:  20
+Fail:   20
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 60
+Please enter your credits at defer: 0
+Please enter your credits at fail: 60
+Pass:   60
+Defer:   0
+Fail:   60
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 40
+Please enter your credits at defer: 0
+Please enter your credits at fail: 80
+Pass:   40
+Defer:   0
+Fail:   80
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+q
+Pass    Defer   Fail    Outcome
+--------------------------------
+120     0       0       Progress
+100     0       20      Module Trailer
+80      20      20      Module Retriever
+60      0       60      Module Retriever
+40      0       80      Exclude
+
+{'Progress': 1, 'Trailer': 1, 'Retriever': 2, 'Exclude': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673.py"       
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Please enter your credits at pass: Traceback (most recent call last):
+  File "g:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework\w1879673.py", line 224, in <module>
+    credit = int(input(f'Please enter your credits at {input_label[position]}: '))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe
+Python 3.11.5 (tags/v3.11.5:cce6ba9, Aug 24 2023, 14:38:34) [MSC v.1936 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> file = file.readline()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+>>> exit()
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe& C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+At line:1 char:68
++ ... ers/jcler/AppData/Local/Programs/Python/Python311/python.exe& C:/User ...
++                                                                 ~
+The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double quotation marks ("&") to pass it as part of a string.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : AmpersandNotAllowed
+
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+['P', 'a', 's', 's', '', 'D', 'e', 'f', 'e', 'r', '', 'F', 'a', 'i', 'l', '']
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/test.py"
+[[120, 0, 0], [100, 0, 20], [80, 20, 20], [60, 0, 60], [40, 0, 80]]
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have a file to read?
+Y - Yes
+N - No
+^ZTraceback (most recent call last):
+object address  : 00000289F3162C20
+object refcount : 2
+object type     : 00007FFDAD8ADF70
+object type name: KeyboardInterrupt
+object repr     : KeyboardInterrupt()
+lost sys.stderr
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework>     The loop will check if the input is an integer
+The : The term 'The' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that 
+the path is correct and try again.
+At line:1 char:5
++     The loop will check if the input is an integer
++     ~~~
+    + CategoryInfo          : ObjectNotFound: (The:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> 
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have a txt file to read?
+Y - Yes
+N - No - Enter Manually
+n
+Please enter your credits at pass: ^Zobject address  : 000001E4814FDA20
+object refcount : 2
+object type     : 00007FFDAD8ADF70
+object type name: KeyboardInterrupt
+object repr     : KeyboardInterrupt()
+lost sys.stderr
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+& C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+& C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+[120, 0, 0]
+[100, 0, 20]
+[80, 20, 20]
+[60, 0, 60]
+[40, 0, 80]
+[60, 20, 40]
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+^ZTraceback (most recent call last):
+  File "g:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework\w1879673_main.py", line 226, in <module>
+    if read_file == 'n':
+                ^^^^^^^^^
+KeyboardInterrupt
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"  
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Traceback (most recent call last):
+  File "g:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework\w1879673_main.py", line 283, in <module>
+    total_credit += item # sum the list
+    ^^^^^^^^^^^^
+NameError: name 'total_credit' is not defined
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Module Retriever
+Pass    Defer   Fail    Outcome
+--------------------------------
+120     0       0       Progress
+100     0       20      Module Trailer
+80      20      20      Module Retriever
+60      0       60      Module Retriever
+40      0       80      Exclude
+60      20      40      Module Retriever
+
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Module Retriever
+Pass    Defer   Fail    Outcome
+--------------------------------
+120     0       0       Progress
+100     0       20      Module Trailer
+80      20      20      Module Retriever
+60      0       60      Module Retriever
+40      0       80      Exclude
+60      20      40      Module Retriever
+
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Total Incorrect. Please check the file, total must be 120
+Pass    Defer   Fail    Outcome
+--------------------------------
+120     0       0       Progress
+100     0       20      Module Trailer
+80      20      20      Module Retriever
+60      0       60      Module Retriever
+40      0       80      Exclude
+
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+^ZTraceback (most recent call last):
+  File "g:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework\w1879673_main.py", line 225, in <module>
+    read_file = input('Do you have Data in progression.txt file to read?\nY - Yes\nN - No - Enter Manually\n').lower()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"  
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+^Zobject address  : 00000229BE81DA80
+object refcount : 2
+object type     : 00007FFDAD8ADF70
+object type name: KeyboardInterrupt
+object repr     : KeyboardInterrupt()
+lost sys.stderr
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"  
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Pass    Defer   Fail    Outcome
+--------------------------------
+120     0       0       Progress
+100     0       20      Module Trailer
+80      20      20      Module Retriever
+60      0       60      Module Retriever
+40      0       80      Exclude
+
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Module Retriever
+6
+Pass    Defer   Fail    Outcome
+--------------------------------
+120     0       0       Progress
+100     0       20      Module Trailer
+80      20      20      Module Retriever
+60      0       60      Module Retriever
+40      0       80      Exclude
+60      20      40      Module Retriever
+
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Module Retriever
+Length of list  6 Length of x  6
+Pass    Defer   Fail    Outcome
+--------------------------------
+120     0       0       Progress
+100     0       20      Module Trailer
+80      20      20      Module Retriever
+60      0       60      Module Retriever
+40      0       80      Exclude
+60      20      40      Module Retriever
+
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Module Retriever
+Pass    Defer   Fail    Outcome
+--------------------------------
+120     0       0       Progress
+100     0       20      Module Trailer
+80      20      20      Module Retriever
+60      0       60      Module Retriever
+40      0       80      Exclude
+60      20      40      Module Retriever
+
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+y
+Press Enter to read the file
+
+Progress
+Progress (Module Trailer)
+Module Retriever
+Module Retriever
+Exclude
+Total Incorrect. Please check the file, total must be 120
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+n
+Please enter your credits at pass: 120
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+^ZTraceback (most recent call last):
+  File "g:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework\w1879673_main.py", line 225, in <module>
+
+KeyboardInterrupt
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework> & C:/Users/jcler/AppData/Local/Programs/Python/Python311/python.exe "g:/My Drive/Documents/University of Westminster/Level 4/4COSC001W.1 Software Development I/w1879673_L4_Software_Development_Coursework/w1879673_main.py"
+
+     |""-..._____
+     '-.____    _````"""""'`|
+         \  ``` ``"---... _ |
+         |              /  /#         }--..______..-{   ###
+        }}}}} _   _ {{{{{
+        }}}}  6   6  {{{{
+       {{{{{    ^    }}}}}
+      {{{{{{\  -=-  /}}}}}}
+      {{{{{{{;.___.;}}}}}}}
+       {{{{{{{)   (}}}}}}}'
+        `""'"':   :'"'"'`
+Student Credit Progression Prediction App
+
+Do you have Data in progression.txt file to read?
+Y - Yes
+N - No - Enter Manually
+n
+Please enter your credits at pass: 120
+Please enter your credits at defer: 0
+Please enter your credits at fail: 0
+Pass:  120
+Defer:   0
+Fail:    0
+Progress
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 100
+Please enter your credits at defer: 0
+Please enter your credits at fail: 20
+Pass:  100
+Defer:   0
+Fail:   20
+Progress (Module Trailer)
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 80
+Please enter your credits at defer: 20
+Please enter your credits at fail: 20
+Pass:   80
+Defer:  20
+Fail:   20
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 60
+Please enter your credits at defer: 0
+Please enter your credits at fail: 60
+Pass:   60
+Defer:   0
+Fail:   60
+Module Retriever
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+y
+Please enter your credits at pass: 40
+Please enter your credits at defer: 0
+Please enter your credits at fail: 90
+Out of range
+Please enter your credits at fail: 80
+Pass:   40
+Defer:   0
+Fail:   80
+Exclude
+*** ------RESTART------- ***
+Q - Quit
+Y - Continue
+q
+Pass    Defer   Fail    Outcome
+--------------------------------
+120     0       0       Progress
+100     0       20      Module Trailer
+80      20      20      Module Retriever
+60      0       60      Module Retriever
+40      0       80      Exclude
+
+{'Progress': 1, 'Trailer': 1, 'Retriever': 2, 'Exclude': 1}
+Window Closed
+PS G:\My Drive\Documents\University of Westminster\Level 4\4COSC001W.1 Software Development I\w1879673_L4_Software_Development_Coursework>
